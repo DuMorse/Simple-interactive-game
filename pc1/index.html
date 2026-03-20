@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloco-notas</title>
+</head>
+<body>
+
+  <div id="fim"></div>
+    <div id="pc">
+
+        <div id="tela">
+                <img id="fundo" src="./img/fundo xp.png" alt="">
+                <div id="apps">
+                    <div class="app1" id="notas"><img src="./img/bloco.png" alt="" id="bloco" class="icones"> <p class="ajuda">notas</p>
+                    <div class="app" id="arquivo"><img src="./img/arquivo.png" alt="" class="icones"> <p>arquivo.bat</p> </div>
+                    <div class="app" id="prompt"><img src="./img/prompt.png" alt="" class="icones"> <p>prompt</p> </div>
+                    <div class="app" id="code"><img src="./img/1000063423.png" alt="" class="icones"> <p>vs code</p> </div>
+                    <div class="app" id="site"><img src="./img/site.png" alt="" class="icones"> <p>index.html</p> </div> 
+                    <div class="app" id="anti"><img src="./img/anti.ico" alt="" class="icones"> <p>anti virus</p> </div>
+                </div>
+        </div>
+        <div id="barra">
+            <div id="iniciar">
+                <img src="./img/windows.png" alt="" id="inicio"> 
+                <p>iniciar</p>
+            </div>
+            <div id="dados">
+                <img src="./img/volume.png" alt="">
+                <img src="./img/info.png" alt="">
+                <div id="hora"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="aba">
+  <div id="notepad" class="janela">
+    <div class="topo">
+      <span class="titulo">Untitled - Notepad</span>
+      <div class="botoes">
+        <button class="min">–</button>
+        <button class="max">□</button>
+        <button class="fechar">×</button>
+      </div>
+    </div>
+
+    <div class="menu">
+      <span>File</span>
+      <span>Edit</span>
+      <span>Format</span>
+      <span>View</span>
+      <span>Help</span>
+    </div>
+
+    <p id="dado" class="um">@echo off</p>
+    <textarea id="texto" name="socooro" placeholder="Escreva aqui..."></textarea>
+    <p id="dado" class="dois">pause</p>
+
+   <div class="botoes-acao">
+  <button id="salvar" type="button">Salvar</button>
+      <div id="mensagem"></div>
+
+</div>
+
+  </div>
+</div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html> 

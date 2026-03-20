@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloco-notas</title>
+</head>
+<body>
+
+  <div id="fim"></div>
+
+    <div id="pc">
+
+        <div id="tela">
+                <img id="fundo" src="./img/fundo xp.png" alt="">
+                <div id="apps">
+                    <div class="app1"><img src="./img/bloco.png" alt="" id="bloco" class="icones"> <p class="ajuda">notas</p>
+                    <div class="app"><img src="./img/arquivo.png" alt="" class="icones"> <p>arquivo.bat</p> </div>
+                    <div class="app"><img src="./img/prompt.png" alt="" class="icones"> <p>prompt</p> </div>
+                    <div class="app"><img src="./img/1000063423.png" alt="" class="icones"> <p>vs code</p> </div>
+                    <div class="app"><img src="./img/site.png" alt="" class="icones"> <p>index.html</p> </div> 
+                    <div class="app"><img src="./img/anti.ico" alt="" class="icones"> <p>anti virus</p> </div>
+                </div>
+        </div>
+        <div id="barra">
+            <div id="iniciar">
+                <img src="./img/windows.png" alt="" id="inicio"> 
+                <p>iniciar</p>
+            </div>
+            <div id="dados">
+                <img src="./img/volume.png" alt="">
+                <img src="./img/info.png" alt="">
+                <div id="hora"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="aba">
+        
+<div class="janela">
+  <div class="topo">
+    <span>Antivirus XP - Sistema de Proteção</span>
+    <span>□ ×</span>
+  </div>
+  <div class="conteudo">
+    <div class="status" id="status">⚠️ Status: Sistema Infectado</div>
+    <div class="entrada">
+      <label for="codigo">Digite o código de restauração:</label>
+      <input type="text" id="codigo" placeholder="">
+      <button id="executar">Executar</button>
+    </div>
+    <div id="mensagem"></div>
+  </div>
+</div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

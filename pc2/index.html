@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloco-notas</title>
+</head>
+<body>
+
+  <div id="fim"></div>
+    <div id="pc">
+
+        <div id="tela">
+                <img id="fundo" src="./img/fundo xp.png" alt="">
+                <div id="apps">
+                    <div class="app1"><img src="./img/bloco.png" alt="" id="bloco" class="icones"> <p class="ajuda">notas</p>
+                    <div class="app"><img src="./img/arquivo.png" alt="" class="icones"> <p>arquivo.bat</p> </div>
+                    <div class="app"><img src="./img/prompt.png" alt="" class="icones"> <p>prompt</p> </div>
+                    <div class="app2"><img src="./img/1000063423.png" alt="" class="icones"> <p>vs code</p> </div>
+                    <div class="app2"><img src="./img/site.png" alt="" class="icones"> <p>index.html</p> </div> 
+                    <div class="app2"><img src="./img/anti.ico" alt="" class="icones"> <p>anti virus</p> </div>
+                </div>
+        </div>
+        <div id="barra">
+            <div id="iniciar">
+                <img src="./img/windows.png" alt="" id="inicio"> 
+                <p>iniciar</p>
+            </div>
+            <div id="dados">
+                <img src="./img/volume.png" alt="">
+                <img src="./img/info.png" alt="">
+                <div id="hora"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="aba">
+        <div id="prompt-cmd" class="janela">
+  <div class="topo">
+    <span class="titulo">C:\WINDOWS\system32\cmd.exe</span>
+    <div class="botoes">
+      <button class="min">–</button>
+      <button class="max">□</button>
+      <button class="fechar">×</button>
+    </div>
+  </div>
+
+  <div class="cmd-corpo" id="cmd-output">
+    Microsoft Windows XP [Version 5.1.2600]  
+    <br>(C) Copyright 1985-2001 Microsoft Corp.
+    <br><br>C:\Users\Admin&gt;
+  </div>
+
+  <div class="cmd-input">
+    <span>C:\Users\Admin&gt;</span>
+    <textarea name="cmd" id="cmd-texto"></textarea>
+  </div>
+</div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloco-notas</title>
+</head>
+<body>
+  <div id="fim"></div>
+
+
+    <div id="pc">
+
+        <div id="tela">
+                <img id="fundo" src="./img/fundo xp.png" alt="">
+                <div id="apps">
+                    <div class="app1"><img src="./img/bloco.png" alt="" id="bloco" class="icones"> <p class="ajuda">notas</p>
+                    <div class="app"><img src="./img/arquivo.png" alt="" class="icones"> <p>arquivo.bat</p> </div>
+                    <div class="app"><img src="./img/prompt.png" alt="" class="icones"> <p>prompt</p> </div>
+                    <div class="app"><img src="./img/1000063423.png" alt="" class="icones"> <p>vs code</p> </div>
+                    <div class="app"><img src="./img/site.png" alt="" class="icones"> <p>index.html</p> </div> 
+                    <div class="app2"><img src="./img/anti.ico" alt="" class="icones"> <p>anti virus</p> </div>
+                </div>
+        </div>
+        <div id="barra">
+            <div id="iniciar">
+                <img src="./img/windows.png" alt="" id="inicio"> 
+                <p>iniciar</p>
+            </div>
+            <div id="dados">
+                <img src="./img/volume.png" alt="">
+                <img src="./img/info.png" alt="">
+                <div id="hora"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="aba">
+      <div id="antivirus" class="janela">
+  <div class="topo">
+    <span class="titulo">Internet Explorer - antivírus_help.html</span>
+    <div class="botoes">
+      <button class="min">–</button>
+      <button class="max">□</button>
+      <button class="fechar">×</button>
+    </div>
+  </div>
+
+  <div class="menu">
+    <span>File</span>
+    <span>Edit</span>
+    <span>View</span>
+    <span>Favorites</span>
+    <span>Tools</span>
+    <span>Help</span>
+  </div>
+
+  <div class="barra-endereco">
+    <span class="label">Address</span>
+    <input type="text" value="C:\Program Files\AntiVirus\help.html" readonly>
+  </div>
+
+  <div class="conteudo-site">
+    <h1>SentinelSpark — antivírus</h1>
+
+    <h1>Visão geral</h1>
+    <p>SentinelSpark é um agente leve de proteção em tempo real que combina varredura por assinatura, análise comportamental e isolamento de processos. Objetivos: detectar e conter ameaças e oferecer ferramentas de recuperação.</p>
+  
+    <h1>Requisitos</h1>
+    <p>Sistema compatível, ~200 MB de espaço, mínimo 2 GB de RAM. Conexão de rede recomendada para atualizações de assinaturas.</p>
+  
+    <h1>Como instalar</h1>
+    <p>Baixe o instalador fictício e execute com privilégios de administrador. Escolha entre instalação recomendada (proteção em tempo real) ou personalizada (apenas varredura/recuperação). Para instalação offline, use o pacote completo e a base de assinaturas incluída.</p>
+  
+    <h1>Como usar</h1>
+    <p>Abra o painel SentinelSpark. Use a área de Proteção em tempo real para ativar/desativar escudos; Varredura para executar rápida, completa ou personalizada; Quarentena para revisar itens detectados. Modos: Automático (remove ameaças conhecidas) ou Conservador (apenas isola e pede confirmação).</p>
+  
+    <h1>Procedimento de recuperação (em caso de infecção)</h1>
+    <p>Em caso de infecção por virus, entre pelo auxilio do link de emergencia: <i id="link">Clique aqui!</i> e coloque o codigo de segurança para resetar seu sistema. Isso deve resolver todo o problema de infecção. Código: <i>reset_antivirus()</i></p>  
+    <h1>Dicas práticas</h1>
+    <p>Mantenha atualizações automáticas, faça backups regulares, evite executar arquivos desconhecidos e use contas sem privilégios para tarefas diárias. Revise periodicamente a quarentena para falsos positivos.</p>
+  
+    <h1>Perguntas rápidas</h1>
+    <p>Remoção automática é segura para ameaças conhecidas; arquivos em quarentena podem ser restaurados após verificação; reset do SentinelSpark tenta reparar sem apagar dados, já a restauração de fábrica apaga tudo — faça backup antes.</p>
+  
+  </div>
+</div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

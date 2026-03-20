@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#fim{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  z-index: 100000;
+  display: none;
+}
+
+#tela, #fundo{
+    width: 100vw;
+    height: 100vh;
+}
+
+#tela #apps{
+    width: 100vw;
+    height: 90%;
+    top: 0;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#tela #apps .icones{
+    margin: 20px;
+    margin-bottom: 40px;
+    width: 40px;
+    height: max-content;
+    margin-left: 150px;
+
+}
+
+#tela #apps #bloco{
+    width: 100px;
+    height: max-content;
+    margin: -3px;    
+    margin-bottom: 18px;
+}
+
+#tela #apps p{
+    color: aliceblue;
+    font-size: 0.8rem;
+    margin-left: 127px;
+    margin-top: -30px;
+    z-index: 20;
+}
+
+#tela #apps .ajuda{
+    margin-left: 32px;
+}
+
+#tela #apps .app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -1320px;
+}
+
+#tela #apps #app1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app2{
+  display: none;
+}
+
+
+#barra{
+    width: 100vw;
+    height: 4%;
+    background-color: rgb(19, 98, 183);
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    display: flex;
+}
+
+#barra #iniciar{
+    width: 8%;
+    height: 100%;
+    border-radius: 12px;
+    margin-left: -10px;
+    background-color: rgb(23, 175, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#barra #iniciar #inicio{
+    width: 25px;
+}
+
+#barra #iniciar p{
+    color: aliceblue;
+    font-size: 1.07rem;
+    margin-left: 4px;
+}
+
+#barra #dados{
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80vw;
+}
+
+.pc2{
+  display: none;
+}
+
+#barra #dados img{
+    width: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#barra #dados #hora{
+    color: aliceblue;
+    font-size: 1.07rem;
+    margin-left: 4px;
+}
+
+#aba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    z-index: 109;
+  }
+
+  .janela {
+    width: 480px;
+    margin-top: -1500px;
+    z-index: 1000;
+    position: fixed;
+    background: #e0e0e0;
+    border: 3px solid #003399;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  }
+
+  .topo {
+    background: linear-gradient(to bottom, #0054e3, #003a99);
+    color: white;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titulo {
+    font-weight: bold;
+  }
+
+  .conteudo {
+    padding: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 1px solid #444;
+    resize: none;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #0e639c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: #094d76;
+  }
+
+  #mensagem {
+    margin-top: 8px;
+    color: #ffb4b4;
+  }
