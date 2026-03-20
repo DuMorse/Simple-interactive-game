@@ -1,3 +1,19 @@
+
+<h1>Circuito basico para imersão em programação</h1>
+<p>Simulação de navegação pelo pc, para a retirada de um vírus no servidor</p>
+<br>
+<hr>
+<br>
+<p>Para iniciar o sistema:</p>
+- abrir o cmd na pasta do sistema
+- executar o seguinte codigo: "npm install express"
+- abrir a pasta no visual code para editar
+- abrir em cada pc o link do sistema aberto no servidor.js
+- abrir cada pc em sua respectiva pasta
+- testar apropriadamente cada um
+- deixar o servidor rodando no pc mestre
+- abrir no pc mestre a pasta "mestre"
+- verifique a conexão e o funcionamento do servidor
 //PT-BR
 Esse foi um projeto simples para uma feira de projetos realizado pela minha escola.
 A historia apresentada foi de que seu PC foi enfectado por um virus, ocultando todos os seus aplicativos menos o bloco de notas
